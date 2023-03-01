@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair' sans-serif;
+    font-size: 20px;
+}
+body {
+    background: #000;
+}
+.wrapper {
+    max-width: 1743px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.active {
+    color: #00FFFF;
+    border-bottom: 0.1rem solid #00FFFF;
+}
+.hidden {
+    display: none;
+}
+
+/* ==============header start============= */
+.leftContent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    background: #333;
+}
+.leftContent .mark {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.leftContent .leftContact a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+    font-size: rem;
+}
+.leftContent .leftContact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40vh;
+    gap: 10px;
+}
+.leftContent .leftContact .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.leftContent .leftLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+.leftContent .leftLogo ul li {
+    list-style: none;
+    line-height: 1.5rem;
+}
+.leftContent .leftLogo ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.leftContent .leftLang .evro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: none;
+}
+.leftContent .leftLang .evro img {
+    width: 1.9rem;
+    height: 1.9rem;
+}
+.leftContent .leftLang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+}
+.leftContent .leftLang .uz {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.leftContent .leftLang .uz i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.leftContent .leftSign {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 5vh;
+}
+.leftContent .leftSign .sinin {
+    color: #999;
+    text-decoration: none;
+}
+.leftContent .leftSign .login {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #000;
+    text-decoration: none;
+}
+/* =================================== */
+
+.headerContact .headerContact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headerContact .headerContact a {
+    color: #999;
+    text-decoration: none;
+}
+.headerContact .headerContact .icons {
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+}
