@@ -7,6 +7,32 @@ let leftContent = document.querySelector('.leftContent')
 let down = document.getElementById('down')
 let hedEvo = document.getElementById('evro2')
 let bars = document.getElementById('bars')
+let load = document.querySelector('.loader')
+let wrapper = document.querySelector('.wrapper')
+let pre = document.querySelectorAll('.pre')
+let sah = document.querySelectorAll('#sah')
+
+
+pre.forEach((pr)=> {
+    pr.addEventListener('click',(e)=> {
+        pr.classList.toggle('starts')
+        sah.forEach((sh)=> {
+            sh.innerHTML = 'Rahmat!!!'
+            setTimeout(()=> {
+                sh.innerHTML = ''
+            },1000)
+        })
+        
+        
+    })
+    
+})
+
+
+setTimeout(()=> {
+    load.style.display = 'none'
+    wrapper.classList.remove('hidden')
+},500)
 
 xmark.addEventListener('click',(e)=> {
     leftContent.style.display = 'none'

@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair' sans-serif;
+    font-family: 'family Genos';
     font-size: 20px;
+    color: #fff;
 }
 body {
     background: #000;
@@ -21,7 +22,33 @@ body {
 .hidden {
     display: none;
 }
-
+.loader {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap:0.5rem;
+}
+.loader h1 {
+    font-size: 2rem;
+}
+.loader span {
+    width: 2rem;
+    height: 2rem;
+    border: 0.1rem solid #fff;
+    border-radius: 50%;
+    border-left: 0.1rem solid #000;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 /* ==============header start============= */
 .leftContent {
     width: 100%;
@@ -146,7 +173,6 @@ body {
     display: flex;
     gap: 1rem;
 }
-
 .header .navbar {
     width: 100%;
 }
@@ -214,6 +240,411 @@ body {
     border-radius: 0.3rem;
     display: none;
 }
+.titleTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 1rem;
+}
+.titleTop h1 {
+    font-size: 3rem;
+}
+
+.webSite {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin-top: 4rem;
+}
+.webSite .webTitle h1 {
+    font-size: 3rem;
+}
+.webSite .webTitle {
+    text-align: center;
+}
+.webSite .webBox {
+    margin-top: 2rem;
+}
+.webSite .webBox video {
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+.webSite .webBox .Box1 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.webSite .webBox .Box1 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.webSite .webBox .Box1 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.webSite .webBox .Box1 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.webSite .webBox .Box1 .desc .webBtn:hover a {
+    color: #000;
+}
+.webSite .webBox .Box1 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.webSite .webBox .Box1 .desc span {
+    color: red;
+}
+.webSite .webBox .Box2 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.webSite .webBox .Box2 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.webSite .webBox .Box2 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.webSite .webBox .Box2 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.webSite .webBox .Box2 .desc .webBtn:hover a {
+    color: #000;
+}
+.webSite .webBox .Box2 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.webSite .webBox .Box2 .desc span {
+    color: red;
+}
+.webSite .btnDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;   
+}
+.webSite .btnDesc a:hover {
+    background: #00FFFF;
+    color: #000;
+}
+.webSite .btnDesc a {
+    border: 2px solid #00FFFF;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+.starts {
+    background: orange;
+    border-radius: 50%; 
+}
+.href {
+    height: 0.3rem;
+    width: 100%;
+    background: #999;
+}
+
+
+.webDizayn {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin-top: 40rem;
+}
+
+.webDizayn .webTitle h1 {
+    font-size: 3rem;
+}
+.webDizayn .webTitle {
+    text-align: center;
+}
+.webDizayn .webBox {
+    margin-top: 2rem;
+}
+.webDizayn .webBox img {
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+.webDizayn .webBox .Box1 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.webDizayn .webBox .Box1 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.webDizayn .webBox .Box1 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.webDizayn .webBox .Box1 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.webDizayn .webBox .Box1 .desc .webBtn:hover a {
+    color: #000;
+}
+.webDizayn .webBox .Box1 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.webDizayn .webBox .Box1 .desc span {
+    color: red;
+}
+.webDizayn .webBox .Box2 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.webDizayn .webBox .Box2 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.webDizayn .webBox .Box2 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.webDizayn .webBox .Box2 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.webDizayn .webBox .Box2 .desc .webBtn:hover a {
+    color: #000;
+}
+.webDizayn .webBox .Box2 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.webDizayn .webBox .Box2 .desc span {
+    color: red;
+}
+.webDizayn .btnDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;   
+}
+.webDizayn .btnDesc a:hover {
+    background: #00FFFF;
+    color: #000;
+}
+.webDizayn .btnDesc a {
+    border: 2px solid #00FFFF;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+.starts {
+    background: orange;
+    border-radius: 50%; 
+}
+
+
+
+
+
+/* ============================= */
+.webGame {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin-top: 40rem;
+}
+
+.webGame .webTitle h1 {
+    font-size: 3rem;
+}
+.webGame .webTitle {
+    text-align: center;
+}
+.webGame .webBox {
+    margin-top: 2rem;
+}
+.webGame .webBox video {
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+.webGame .webBox .Box1 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.webGame .webBox .Box1 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.webGame .webBox .Box1 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.webGame .webBox .Box1 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.webGame .webBox .Box1 .desc .webBtn:hover a {
+    color: #000;
+}
+.webGame .webBox .Box1 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.webGame .webBox .Box1 .desc span {
+    color: red;
+}
+.webGame .webBox .Box2 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.webGame .webBox .Box2 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.webGame .webBox .Box2 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.webGame .webBox .Box2 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.webGame .webBox .Box2 .desc .webBtn:hover a {
+    color: #000;
+}
+.webGame .webBox .Box2 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.webGame .webBox .Box2 .desc span {
+    color: red;
+}
+.webGame .btnDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;   
+}
+.webGame .btnDesc a:hover {
+    background: #00FFFF;
+    color: #000;
+}
+.webGame .btnDesc a {
+    border: 2px solid #00FFFF;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+.starts {
+    background: orange;
+    border-radius: 50%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1300px) {
     .header .navbar .Logo {
@@ -238,6 +669,74 @@ body {
     }
 
 }
+@media (max-width: 800px) {
+    .webSite {
+        height: 30vh;
+    }
+    .webSite .webBox .Box1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .webSite .webBox .Box2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .webSite .webTitle h1 {
+        font-size: 1.5rem;
+    }
+    .titleTop h1 {
+        font-size: 1.5rem;
+    }
+
+    .webDizayn .webBox .Box1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .webDizayn .webBox .Box2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .webDizayn .webTitle h1 {
+        font-size: 1.5rem;
+    }
+    .titleTop h1 {
+        font-size: 1.5rem;
+    }
+
+    /* ======= */
+    .webGame .webBox .Box1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .webGame .webBox .Box2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .webGame .webTitle h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 780px) {
+    .webDizayn {
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        height: 30vh;
+        margin-top: 190rem;
+    }
+    .webGame {
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        height: 30vh;
+        margin-top: 170rem;
+    }
+}
 @media (max-width: 380px) {
     .headerContact {
         display: none;
@@ -250,5 +749,23 @@ body {
     }
     .leftContent .leftLogo img {
         width: 6rem;
+    }
+    .webDizayn {
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        height: 30vh;
+        margin-top: 160rem;
+    }
+    .webGame {
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        height: 30vh;
+        margin-top: 160rem;
     }
 }
