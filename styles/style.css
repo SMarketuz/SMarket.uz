@@ -29,15 +29,17 @@ body {
     position: fixed;
     z-index: 10;
     background: #333;
+    left: 0;
 }
 .leftContent .mark {
     position: absolute;
     right: 1rem;
     top: 1rem;
     font-size: 2rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #fff;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    color: #ffff;
 }
 .leftContent .leftContact a {
     color: #fff;
@@ -133,7 +135,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+
 }
 .headerContact .headerContact a {
     color: #999;
@@ -143,4 +145,110 @@ body {
     color: #fff;
     display: flex;
     gap: 1rem;
+}
+
+.header .navbar {
+    width: 100%;
+}
+.header .navbar .Logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .navbar .Logo ul {
+    display: flex;
+    gap: 1rem;
+}
+.header .navbar .Logo ul li {
+    list-style: none;
+}
+.header .navbar .Logo ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header .navbar .Logo .Lang .uz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1.5rem;
+}
+.header .navbar .Logo .Lang .uz .uzIcon {
+    display: flex;
+    align-items: center;
+}
+.header .navbar .Logo .Lang .uz i {
+    color: #fff;
+}
+.header .navbar .Logo .Lang .evro {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: none;
+}
+.header .navbar .Logo .Lang .evro img {
+    width: 1.5rem;
+}
+.header .navbar .Logo .Sign {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header .navbar .Logo .Sign .sinin {
+    color: #999;
+    text-decoration: none;
+}
+.header .navbar .Logo .Sign .login {
+    background: #00FFFF;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: #000;
+    text-decoration: none;
+}
+.header .navbar .Logo .bars i {
+    color: #fff;
+    font-size: 1.5rem;
+    border: 0.1rem solid white;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .header .navbar .Logo {
+        flex-direction: column;
+    }
+    .header .navbar .Logo .Lang {
+        display: none;
+    }
+    .header .navbar .Logo .Sign {
+        display: none;
+    }
+}
+@media (max-width: 870px) {
+    .header .navbar .Logo ul {
+        display: none;
+    }
+    .header .navbar .Logo .bars i {
+        display: block;
+    }
+    .header .navbar .Logo {
+        flex-direction: row;
+    }
+
+}
+@media (max-width: 380px) {
+    .headerContact {
+        display: none;
+    }
+    .header .navbar .Logo {
+        padding: 1rem  0;
+    }
+    .header .navbar .Logo img {
+        width: 6rem;
+    }
+    .leftContent .leftLogo img {
+        width: 6rem;
+    }
 }
