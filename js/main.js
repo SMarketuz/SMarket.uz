@@ -11,6 +11,11 @@ let load = document.querySelector('.loader')
 let wrapper = document.querySelector('.wrapper')
 let pre = document.querySelectorAll('.pre')
 let sah = document.querySelectorAll('#sah')
+let loginDown = document.getElementById('down')
+let langEvro = document.querySelector('.langEvro')
+
+
+
 
 
 pre.forEach((pr)=> {
@@ -22,10 +27,7 @@ pre.forEach((pr)=> {
                 sh.innerHTML = ''
             },1000)
         })
-        
-        
     })
-    
 })
 
 

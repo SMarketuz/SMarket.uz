@@ -106,6 +106,21 @@ body {
 .leftContent .leftLogo ul li a {
     color: #fff;
     text-decoration: none;
+    position: relative;
+}
+.leftContent .leftLogo ul li a::after {
+    content: '';
+    position: absolute;
+    background: aqua;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -9px;
+    transition: 0.4s;
+    
+}
+.leftContent .leftLogo ul li a:hover::after {
+    width: 100%;
 }
 .leftContent .leftLang .evro {
     display: flex;
@@ -191,6 +206,20 @@ body {
 .header .navbar .Logo ul li a {
     color: #fff;
     text-decoration: none;
+    position: relative;
+}
+.header .navbar .Logo ul li a::after {
+    content: '';
+    position: absolute;
+    background: aqua;
+    width: 0%;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.header .navbar .Logo ul li a:hover::after {
+    width: 100%;
 }
 .header .navbar .Logo .Lang .uz {
     display: flex;
@@ -376,6 +405,7 @@ body {
     width: 100%;
     background: #999;
 }
+/* ===============web sites================ */
 
 
 .webDizayn {
@@ -503,7 +533,7 @@ body {
 
 
 
-/* ============================= */
+/* =============web game================ */
 .webGame {
     width: 100%;
     /* display: flex;
@@ -625,6 +655,239 @@ body {
     border-radius: 50%; 
 }
 
+/* ============mobile apk======================= */
+
+.mobileApk {
+    width: 100%;
+    height: 30vh;
+    margin-top: 40rem;
+}
+
+.mobileApk .webTitle h1 {
+    font-size: 3rem;
+}
+.mobileApk .webTitle {
+    text-align: center;
+}
+.mobileApk .webBox {
+    margin-top: 2rem;
+}
+.mobileApk .webBox video {
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+.mobileApk .webBox .Box1 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.mobileApk .webBox .Box1 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.mobileApk .webBox .Box1 .desc .webBtn {
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.mobileApk .webBox .Box1 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.mobileApk .webBox .Box1 .desc .webBtn:hover a {
+    color: #000;
+}
+.mobileApk .webBox .Box1 .desc .webBtn a {
+    text-decoration: none;
+}
+.mobileApk .webBox .Box1 .desc span {
+    color: red;
+}
+.mobileApk .webBox .Box2 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.mobileApk .webBox .Box2 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.mobileApk .webBox .Box2 .desc .webBtn {
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.mobileApk .webBox .Box2 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.mobileApk .webBox .Box2 .desc .webBtn:hover a {
+    color: #000;
+}
+.mobileApk .webBox .Box2 .desc .webBtn a {
+    text-decoration: none;
+}
+.mobileApk .webBox .Box2 .desc span {
+    color: red;
+}
+.mobileApk .btnDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;   
+}
+.mobileApk .btnDesc a:hover {
+    background: #00FFFF;
+    color: #000;
+}
+.mobileApk .btnDesc a {
+    border: 2px solid #00FFFF;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+/* =================3d max===================== */
+.DMax {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 30vh;
+    margin-top: 40rem;
+}
+
+.DMax .webTitle h1 {
+    font-size: 3rem;
+}
+.DMax .webTitle {
+    text-align: center;
+}
+.DMax .webBox {
+    margin-top: 2rem;
+}
+.DMax .webBox img {
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+.DMax .webBox .Box1 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.DMax .webBox .Box1 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.DMax .webBox .Box1 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.DMax .webBox .Box1 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.DMax .webBox .Box1 .desc .webBtn:hover a {
+    color: #000;
+}
+.DMax .webBox .Box1 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.DMax .webBox .Box1 .desc span {
+    color: red;
+}
+.DMax .webBox .Box2 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.DMax .webBox .Box2 .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #999;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+.DMax .webBox .Box2 .desc .webBtn {
+    /* background: #00FFFF; */
+    border: 2px solid #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+.DMax .webBox .Box2 .desc .webBtn:hover {
+    background: #00FFFF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.DMax .webBox .Box2 .desc .webBtn:hover a {
+    color: #000;
+}
+.DMax .webBox .Box2 .desc .webBtn a {
+    /* color: #000; */
+    text-decoration: none;
+}
+.DMax .webBox .Box2 .desc span {
+    color: red;
+}
+.DMax .btnDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;   
+}
+.DMax .btnDesc a:hover {
+    background: #00FFFF;
+    color: #000;
+}
+.DMax .btnDesc a {
+    border: 2px solid #00FFFF;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+.starts {
+    background: orange;
+    border-radius: 50%; 
+}
+
+/* ====================hamkorlar================== */
 
 
 
@@ -646,6 +909,19 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================mobile================== */
 @media (max-width: 1300px) {
     .header .navbar .Logo {
         flex-direction: column;
@@ -655,6 +931,22 @@ body {
     }
     .header .navbar .Logo .Sign {
         display: none;
+    }
+}
+@media (max-width: 950px) {
+    .webDizayn {
+        margin-top: 1rem;
+    }
+    .webGame {
+        margin-top: 1rem;
+    }
+    .mobileApk {
+        margin-top: 1rem;
+        height: 60vh;
+    }
+    .DMax {
+        margin-top: 1rem;
+        height: 0;
     }
 }
 @media (max-width: 870px) {
@@ -669,7 +961,24 @@ body {
     }
 
 }
+@media (max-width: 850px) {
+    .webDizayn {
+        margin-top: 15rem;
+    }
+    .webGame {
+        margin-top: 15rem;
+    }
+    .mobileApk {
+        margin-top: 15rem;
+        height: 0;
+    }
+    .DMax {
+        margin-top: 45rem;
+        height: 0;
+    }
+}
 @media (max-width: 800px) {
+    
     .webSite {
         height: 30vh;
     }
@@ -716,25 +1025,82 @@ body {
     .webGame .webTitle h1 {
         font-size: 1.5rem;
     }
+    /* =============== */
+
+    .mobileApk .webBox .Box1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mobileApk .webBox .Box2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mobileApk .webTitle h1 {
+        font-size: 1.5rem;
+    }
+    /* =============== */
+    .DMax .webBox .Box1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .DMax .webBox .Box2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .DMax .webTitle h1 {
+        font-size: 1.5rem;
+    }
 }
 @media (max-width: 780px) {
     .webDizayn {
         width: 100%;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
+        height: 100vh;
+        margin-top: 220rem;
+    }
+    .webGame {
+        width: 100%;
+        height: 60vh;
+        margin-top: 190rem;
+    }
+    .mobileApk {
+        width: 100%;
+        height: 30vh;
+        margin-top: 220rem;
+    }
+    .DMax {
+        width: 100%;
+        height: 30vh;
+        margin-top: 110rem;
+    }
+}
+@media (max-width: 550px) {
+    .webDizayn {
+        width: 100%;
         height: 30vh;
         margin-top: 190rem;
     }
     .webGame {
-        width: 100%;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
-        height: 30vh;
+        height: 0vh;
+    }
+    .mobileApk {
+        height: 0vh;
+    }
+    .DMax {
+        height: 0vh;
+    }
+}
+@media (max-width: 450px) {
+    .webDizayn {
+        margin-top: 165rem;
+    }
+    .webGame {
+        margin-top: 165rem;
+    }
+    .mobileApk {
         margin-top: 170rem;
+    }
+    .DMax {
+        margin-top: 80rem;
     }
 }
 @media (max-width: 380px) {
@@ -752,20 +1118,23 @@ body {
     }
     .webDizayn {
         width: 100%;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
-        height: 30vh;
+        height: 0vh;
         margin-top: 160rem;
     }
     .webGame {
         width: 100%;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
+
         height: 30vh;
-        margin-top: 160rem;
+        margin-top: 170rem;
+    }
+    .mobileApk {
+        width: 100%;
+        height: 30vh;
+        margin-top: 165rem;
+    }
+    .DMax {
+        width: 100%;
+        height: 30vh;
+        margin-top: 75rem;
     }
 }
