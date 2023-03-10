@@ -1,0 +1,154 @@
+* {
+    text-decoration: none;
+}
+.movios {
+    width: 100%;
+    height: 30vh;
+    margin-top: 20px;
+}
+.movios .moviBox {
+    border-radius: 30px;
+    background: linear-gradient(rgb(100, 219, 219),rgb(153, 134, 137));
+}
+.movios .moviBox .movi {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 0 3rem;
+    gap: 4rem;
+    color: #999;
+    overflow-x:auto;
+}
+.movios .moviBox .movi .moviTitle  {
+    font-size: 30px; 
+    border-right: 10px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.movios .moviBox .movi h2 a {
+    position: relative;
+    
+}
+.movios .moviBox .movi h2 a::after {
+    content: '';
+    position: absolute;
+    background: aqua;
+    left: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 3px;
+    transition: all 0.5s;
+}
+.movios .moviBox .movi h2 a:hover::after {
+    width: 100%;
+}
+
+
+.homeTitle {
+    width: 100%;
+    height: 100vh;
+}
+
+.homeTitle .topTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.homeTitle .topTitle h1 {
+    font-size: 60px;
+}
+
+.homeTitle .topTitle p {
+    font-size: 20px;
+}
+.homeTitle .topTitle .titleBtn {
+    background: #00FFFF;
+    padding: 5px 30px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px aqua);
+}
+.homeTitle .topTitle .titleBtn a {
+    color: black;
+    transition: all 0.5s;
+}
+.homeTitle .topTitle .titleBtn a:hover {
+    letter-spacing: 2px;
+}
+.homeTitle .topTitle .titleDote {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .movios .moviBox .movi h2 a {
+        font-size: 15px;
+    }
+    .movios .moviBox .movi {
+        gap: 2rem;
+    }
+}
+@media (max-width: 620px) {
+    .homeTitle .topTitle h1 {
+        font-size: 30px;
+    }
+    .homeTitle .topTitle {
+        gap: 10px;
+    }
+    .homeTitle .topTitle p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 376px) {
+    .homeTitle .topTitle .titleDote {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .homeTitle .topTitle .titleDote h3 {
+        font-size: 10px;
+    }
+    .homeTitle .topTitle .titleDote p {
+        font-size: 10px;
+    }
+    .homeTitle .topTitle .titleBtn a {
+        font-size: 10px;
+    }
+    .homeTitle .topTitle h1 {
+        font-size: 20px;
+    }
+    .homeTitle .topTitle {
+        text-align: center;
+    }
+}
+
+
+
+
+
