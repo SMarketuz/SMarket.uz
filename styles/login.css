@@ -211,12 +211,20 @@ body {
 #form .submit .icon3 {
     display: flex;
 }
+.danger {
+    color: red;
+    font-style: italic;
+}
 #form .at {
     border: none;
     background: transparent;
     border-bottom: 2px solid #999;
     padding: 5px 10px;
     width: 100%;
+}
+
+.ok {
+    border: 2px solid #0f0;
 }
 
 #form .parol {
