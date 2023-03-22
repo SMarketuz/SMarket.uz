@@ -180,7 +180,298 @@
 .daysToshVil .tong .tim h4 {
     font-size: 15px;
 }
+.hide {
+    display: none;
+}
 
+/* sirdayo */
+.timeSir {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysSir {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysSir .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysSir .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysSir .tong .tim h1 {
+    font-size: 40px;
+}
+.daysSir .tong .tim h4 {
+    font-size: 15px;
+}
+/* jizzax */
+.timeJizax {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysJizax {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysJizax .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysJizax .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysJizax .tong .tim h1 {
+    font-size: 40px;
+}
+.daysJizax .tong .tim h4 {
+    font-size: 15px;
+}
+/* samarqand */
+.timeSam {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysSam {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysSam .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysSam .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysSam .tong .tim h1 {
+    font-size: 40px;
+}
+.daysSam .tong .tim h4 {
+    font-size: 15px;
+}
+/* surxondayro */
+.timeSur {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysSur {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysSur .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysSur .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysSur .tong .tim h1 {
+    font-size: 40px;
+}
+.daysSur .tong .tim h4 {
+    font-size: 15px;
+}
+/* qashqadaryo */
+.timeQash {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysQash {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysQash .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysQash .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysQash .tong .tim h1 {
+    font-size: 40px;
+}
+.daysQash .tong .tim h4 {
+    font-size: 15px;
+}
+/* buxoro */
+.timeBux {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysBux {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysBux .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysBux .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysBux .tong .tim h1 {
+    font-size: 40px;
+}
+.daysBux .tong .tim h4 {
+    font-size: 15px;
+}
+/* navoiy */
+.timeNav {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysNav .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysNav .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysNav .tong .tim h1 {
+    font-size: 40px;
+}
+.daysNav .tong .tim h4 {
+    font-size: 15px;
+}
+/* xorazm */
+.timeXor {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysXor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysXor .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysXor .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysXor .tong .tim h1 {
+    font-size: 40px;
+}
+.daysXor .tong .tim h4 {
+    font-size: 15px;
+}
+/* qaraqalpoq */
+.timeQor {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysQor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysQor .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysQor .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysQor .tong .tim h1 {
+    font-size: 40px;
+}
+.daysQor .tong .tim h4 {
+    font-size: 15px;
+}
 /* inp form */
 
 #form input {
@@ -200,6 +491,110 @@
         padding: 15px;
         border-radius: 20px;
     }
+    .daysAnd .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysFar .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysTosh .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysToshVil .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysSir .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysJizax .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysSam .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysSur .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysQash .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysBux .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysNav .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysXor .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .daysQor .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
 }
 
 @media (max-width: 940px) {
@@ -208,6 +603,163 @@
         gap: 20px;
     }
     .days .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    
+    .daysAnd {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysAnd .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysFar {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysFar .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysTosh {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysTosh .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysToshVil {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysToshVil .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysSir {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysSir .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysJizax {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysJizax .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysSam {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysSam .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysSur {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysSur .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysQash {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysQash .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysBux {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysBux .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysNav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysNav .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysXor {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysXor .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .daysQor {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .daysQor .tong {
         display: flex;
         flex-direction: column;
         gap: 10px;
