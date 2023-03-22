@@ -1,0 +1,128 @@
+
+.sigin2, .login2 {
+    font-size: 12px;
+}
+#itm a {
+    font-size: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.swiper-slide video {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    color: black;
+}
+.swiper-slide h2 {
+    text-align: start;
+}
+.swiper-slide .webIcons {
+    text-align: start;
+}
+.swiper-slide h2 span {
+    color: red;
+}
+.swiper-slide .webIcons #sah {
+    color: red;
+}
+.swiper-slide .mak {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.swiper-slide .mak .webBtn a {
+    border: 2px solid #4681E7;
+    padding: 5px;
+    border-radius: 10px;
+}
+.swiper-slide .mak .webBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hamkorSlider4 {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    overflow-x: hidden;
+    margin-top: 20rem;
+}
+.hamkorSlider4 .slider4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    animation: slider 10s linear infinite;
+}
+@keyframes slider {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.hamkorSlider4 .slider4 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 950px) {
+    .swiper-slide h2 {
+        font-size: 10px;
+    }
+    .swiper-slide .mak .webBtn a {
+        font-size: 10px;
+    }
+    .swiper-slide .webIcons i {
+        font-size: 10px;
+    }
+    .swiper-slide h2 span {
+        font-size: 10px;
+    }
+    .swiper-slide {
+        padding: 10px;
+    }
+    .swiper-slide .mak {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+}
+@media (max-width: 450px) {
+    .hamkorSlider4 {
+        display: flex;
+        width: 100%;
+        height: 60vh;
+        overflow-x: hidden;
+        margin-top: 10rem;
+    }
+    .swiper h1 {
+        font-size: 15px;
+    }
+}

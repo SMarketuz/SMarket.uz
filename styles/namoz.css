@@ -1,0 +1,224 @@
+.namazTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    height: 50vh;
+}
+.namazTitle h1 {
+    font-size: 60px;
+}
+.namazDay {
+    border-bottom: 2px solid aqua;
+}
+/* namangan */
+
+
+.timeNam {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.days {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.days .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.days .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.days .tong .tim h1 {
+    font-size: 40px;
+}
+.days .tong .tim h4 {
+    font-size: 15px;
+}
+
+/* andijon */
+.timeAnd {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysAnd {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysAnd .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysAnd .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysAnd .tong .tim h1 {
+    font-size: 40px;
+}
+.daysAnd .tong .tim h4 {
+    font-size: 15px;
+}
+/* fargo'ona  */
+
+
+.timeFar {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysFar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysFar .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysFar .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysFar .tong .tim h1 {
+    font-size: 40px;
+}
+.daysFar .tong .tim h4 {
+    font-size: 15px;
+}
+
+/* toshkent */
+
+.timeTosh {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysTosh {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysTosh .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysTosh .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysTosh .tong .tim h1 {
+    font-size: 40px;
+}
+.daysTosh .tong .tim h4 {
+    font-size: 15px;
+}
+/* toshkent viloyati namaz time */
+
+.timeToshVil {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 0;
+}
+.daysToshVil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.daysToshVil .tong {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A5CCE1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.daysToshVil .tong .icon {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.daysToshVil .tong .tim h1 {
+    font-size: 40px;
+}
+.daysToshVil .tong .tim h4 {
+    font-size: 15px;
+}
+
+/* inp form */
+
+#form input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    border-bottom: 2px solid aqua;
+}
+
+@media (max-width: 1115px) {
+    .days .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 940px) {
+    .days {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .days .tong {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #A5CCE1;
+        padding: 50px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 340px) {
+    .namazTitle h1 {
+        font-size: 40px;
+    }
+}

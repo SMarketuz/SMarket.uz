@@ -7,6 +7,16 @@
     font-family: 'Montserrat';
     color: #fff;
 }
+*::-webkit-scrollbar {
+    width: 15px;
+}
+*::-webkit-scrollbar-track {
+    background: black;
+}
+*::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 5px;
+}
 body {
     background: #000;
 }

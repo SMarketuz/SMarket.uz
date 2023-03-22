@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Genos';
+    color: #fff;
+}
+
+.bitLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 80vh;
+}
+.bitLogo .Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bitLogo .Logo img {
+    width: 100%;
+}
+.bitLogo .bitTitle h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.bitLogo .bitPr p {
+    max-width: 800px;
+    text-align: center;
+}
+.bitLogo .bitPr2 p {
+    max-width: 800px;
+    text-align: center;
+}
+
+.hodimlarimiz {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    
+}
+.hodimlar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.hodimlarimiz .het h1 {
+    font-size: 40px;
+    border-bottom: 3px solid #999;
+    
+}
+.hodimlarimiz .het {
+    padding: 30px 0;
+}
+.hodimlar .hodim {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 10px;
+    border-radius: 40px;
+    box-shadow: 1px 3px 1px 6px white;
+    filter: drop-shadow(5px 5px 10px white);
+}
+.hodimlar .hodim img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.hodimlar .hodim span {
+    font-size: 12px;
+}
+.hodimlar .hodim .icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hodimlar .hodim .btn a {
+    background: aqua;
+    padding: 5px 50px;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.hodimlar .hodim .btn a:hover {
+    letter-spacing: 3px;
+}
+.hodimlar .hodim .titleHodim {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+}
+.hodimlar .hodim .titleHodim h4,h5 {
+    color: black;
+}
+.hodimlar .hodim .titleHodim .clin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #999;
+    padding-right: 10px;
+}
+
+.hodimlar .hodim .titleHodim .clin h5 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.hodimlar .hodim .titleHodim .taj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    border-right: 2px solid #999;
+}
+
+.hodimlar .hodim .titleHodim .taj h5 {
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.hodimlar .hodim .titleHodim .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hodimlar .hodim .titleHodim .work   h5 {
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hamkorSlider2 {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    overflow-x: hidden;
+    margin-top: 10rem;
+}
+.hamkorSlider2 .slider {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    animation: slider 10s linear infinite;
+}
+@keyframes slider {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.hamkorSlider2 .slider img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+@media (max-width: 810px) {
+    .hodimlar {
+        gap: 30px;
+    }
+}
+@media (max-width: 760px) {
+    .hodimlar {
+        gap: 30px;
+        flex-direction: column;
+    }
+    .hodim {
+        width: 100%;
+    }
+
+}
+@media (max-width: 450px) {
+    .bitLogo .bitTitle h1 {
+        text-align: start;
+        font-size: 20px;
+    }
+    .bitLogo .bitPr p {
+        text-align: start;
+    }
+    .bitLogo .bitPr2 p {
+        text-align: start;
+    }
+    .hodimlarimiz .het h1 {
+        font-size: 20px;
+        
+    }
+}
+@media (max-width: 390px) {
+    .hodimlar .hodim img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .hodimlar .hodim {
+        padding: 10px;
+    }
+    .hodimlar .hodim .titleHodim {
+        padding: 5px;
+        border-radius: 30px;
+    }
+    .hodimlar .hodim .btn a {
+        font-size: 10px;
+    }
+}

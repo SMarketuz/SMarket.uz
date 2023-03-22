@@ -4,331 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/login.css">
     <link rel="shortcut icon" href="./images/logogo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <title>SMarket.uz</title>
+    <title>SMarket.uz</title>
 </head>
 <body>
-    <!-- start site -->
-
-    <div class="loader">
+    <!-- <div class="loader">
         <h1>L</h1>
         <span></span>
         <h1>ADER</h1>
-    </div>
+    </div> -->
     <div class="wrapper">
-        <!-- start header -->
-        <header class="header" id="header">
-            <div class="leftContent hidden">
-                <i class="fa-solid fa-xmark mark" id="xmark"></i>
-                <div class="leftContact">
-                    <a href="#">Biz bilan a’loqa <i class="fa-solid fa-right-long"></i></a>
-                    <div class="icons">
-                        <i class="fa-brands fa-telegram"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-tiktok"></i> 
-                    </div>
-                </div>
-                <div class="leftLogo">
-                    <img src="./images/log.png" alt="">
-                    <ul>
-                        <li ><a class="active"  href="#">Bosh sahifa</a></li>
-                        <li ><a href="#">Biz haqimizda</a></li>
-                        <li ><a href="#">Hizmatlar</a></li>
-                        <li ><a href="#">Do’kon</a></li>
-                        <li ><a href="#">Namoz vaqtlari</a></li>
-                        <li ><a href="#">Ob-havo</a></li>
-                    </ul>
-                </div>
-                <div class="leftLang">
-                    <div class="uz">
-                        <i class="fa-solid fa-circle-right" id="right"></i>
-                        <div class="evro" id="evro">
-                        </div>
-                    </div>
-                </div>
-                <div class="leftSign">
-                    <a class="sinin" href="./login.html">Tizimga kirish</a>
-                    <a class="login" href="./login.html">Tizimga kirish</a>
-                </div>
-            </div> 
-    
-            
-            <div class="headerContact">
-                <div class="headerContact">
-                    <a href="#" id="cont">Biz bilan a’loqa <i class="fa-solid fa-right-long"></i></a>
-                    <div class="icons">
-                        <a href="https://t.me/SMarket_group"><i class="fa-brands fa-telegram"></i></a>
-                        <a href="https://www.instagram.com/muhammadal1_dev/"><i class="fa-brands fa-instagram"></i></a>      
-                        <a href="https://youtube.com/@SiteMarket"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://tiktok.com/smarketuz"><i class="fa-brands fa-tiktok"></i></a>    
-                    </div>
 
+
+        <!-- start header -->
+
+        <div class="leftLogin hidden" id="leftLogin">
+            <i class="fa-solid fa-xmark mark" id="xmark"></i>
+            <img src="./images/log.png" alt="">
+            <div class="drLeft">
+                <div class="langsLeft ">
+                    <div class="uzblangLeft">
+                      
+                        <i class="fa-solid fa-circle-right" id="leftdown"></i>
+
+                    </div>
+                    
+                    <div class="evroLangLeft">
+                      
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="registerLeft">
+                <a id="tizimLeft" class="sininLeft" href="#">Tizimga kirish</a>
+                <a id="royhatLeft"  class="loginLeft" href="#">Ro'yxatdan o'tish</a>
+            </div>
+        </div>
+        <header class="header" id="header">
+            <div class="headerImg">
+                <img src="./images/log.png" alt="">
+            </div>
+            <div class="dr">
+                <div class="langs">
+                    <div class="uzblang">
+                      
+                        <i style="display: none;" class="fa-solid fa-circle-right " id="logdown"></i>
+
+                    </div>
+                    
+                    <div class="evroLang">
+                       
+                    </div>
+                </div>
+                
+            </div>
+            <div class="register">
+               <div class="reg">
+                    <a id="tizim" class="sinin" href="#">Tizimga kirish</a>
+                    <a id="royhat"  class="login" href="#">Ro'yxatdan o'tish</a>
+               </div>
+                <div class="barsLog" id="barsLog">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
-
-            <nav class="navbar">
-                <div class="Logo">
-                    <img src="./images/log.png" alt="">
-                    <ul id="itm">
-                        <li id="itms"><a class="active"  href="#">Bosh sahifa</a></li>
-                        <li id="itms"><a href="#">Biz haqimizda</a></li>
-                        <li id="itms"><a href="#">Hizmatlar</a></li>
-                        <li id="itms"><a href="#">Do’kon</a></li>
-                        <li id="itms"><a href="#">Namoz vaqtlari</a></li>
-                        <li id="itms"><a href="#">Ob-havo</a></li>
-                    </ul>
-                    <div class="Lang hidden">
-                        <div class="uz" id="uz">
-                           <div class="uzIcon" >
-                                
-                                <i class="fa-solid fa-circle-down" id="down"></i>
-                           </div>
-                            <div class="evro" id="evro2">
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Sign">
-                        <a id="tizim" class="sinin" href="./login.html">Tizimga kirish</a>
-                        <a id="royhat"  class="login" href="./login.html">Ro'yxatdan o'tish</a>
-                    </div>
-                    <div class="bars" id="bars">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                </div>
-
-                
-            </nav>
         </header>
+        
         <!-- end header -->
 
+        <!-- start sections -->
 
 
-        <!-- start index sections -->
-
-        <section class="movios">
-            <div class="moviBox">
-                <div class="movi">
-                    <div class="moviTitle">
-                        <h1>Kinolar va Multfilmlar</h1>
-                    </div>
-                    <h2><a href="#">Barchasi</a></h2>
-                    <h2><a href="#">Jangari kinolar</a></h2>
-                    <h2><a href="#">omabop kinolar</a></h2>
-                    <h2><a href="#">Seriallar</a></h2>
-                    <h2><a href="#">Multfilmlar</a></h2>
-                </div>
+        <section class="sectionTop">
+            <div class="titleTop">
+                <h1 id="heding1">Ro'yxatdan o'tish</h1>
+                <p id="para1">Hisob yaratish uchun barcha maydonlarni to'ldiring.</p>
             </div>
-        </section>
-
-
-        <section class="homeTitle">
-            <div class="topTitle">
-                <h1>O'z saytingizni oling</h1>
-                <p>Xizmatlarimiz haqida ko'proq bilib oling</p>
-                <div class="titleBtn">
-                    <a href="#">Hozir boshlang</a>
-                </div>
-                <div class="titleDote">
-                    <img src="./images/Dot.png" alt="">
-                    <h3>1000+</h3>
-                    <p>Bizda professionallar bor</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="aboutVideos">
-            <div class="videos">
-                <div class="videoTitle">
-                    <h1>SMarket haqida video darslik</h1>
-                </div>
-                <div class="videoBox1">
-                   <div class="videoBox2">
-                        <img class="videos" src="./images/Image video.png" alt="">
+            <form id="form">
+                <div class="user">
+                   <div class="icon">
+                        <input type="text" name="name" placeholder="Foydalanuvchi nomi" class="userName">
+                        <i class="fa-solid fa-user" id="user"></i>
                    </div>
-                   <div class="videoBox2">
-                        <img class="videos" src="./images/Image video.png" alt="">
+
+                    <div class="icon2">
+                        <input type="email" name="email" placeholder="E-pochta manzili" class="at">
+                        <i class="fa-regular fa-at" id="at"></i>
                     </div>
-                    <div class="videoBox2">
-                        <img class="videos" src="./images/Image video.png" alt="">
+                </div>
+
+
+                <br>
+
+                <div class="submit">
+                   <div class="icon3">
+                        <input type="password" name="kod" placeholder="Parol" class="parol">
+                        <i class="fa-regular fa-eye"></i>
                    </div>
+
+                    <a href="#"class="btn">Ro'yxatdan o'tish</a>
+                </div>
+                <span class="danger" id="habar"></span>
+                <span class="danger" id="habar2"></span>
+            </form>
+
+            <div class="orTitle">
+                <h1 class="orHeding">Yoki</h1>
+                <a href="#" class="orPara"><p>Roʻyxatdan oʻtish...</p></a>
+            </div>
+
+
+
+            <div class="platforms">
+                <div class="facebook">
+                    <img src="./images/Facebook.png" alt="">
+                    <a class="facebook" href="#">facebook bilan ro'yxatdan o'ting</a>
+                </div>
+
+                <div class="google">
+                    <img src="./images/G_logo.png" alt="">
+                    <a class="google" href="#">Google bilan ro'yxatdan o'ting</a>
                 </div>
             </div>
-        </section>
 
-        <section class="qadam-1">
-            <div class="qadamBox">
-                <div class="qadamHed">
-                    <h3>1-QADAM</h3>
-                </div>
-                <div class="qadamTitle">
-                    <h1>Biz haqimizda hamma bilishi mumkin</h1>
-                </div>
-                <div class="qadamPara">
-                    <p>Chunki siz bemalol o'z saytingizni yaratishingiz mumkin, bu qiyin bo'lmaydi va ko'p pul sarflamaysiz, bu yaxshilikni hamma bilan baham ko'ring</p>
-                </div>
-                <div class="qadamBtn">
-                    <a href="#">Ulashish</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="clients">
-            <div class="client">
-                <div class="clientTitle">
-                    <h1>Sizning e'tiboringiz bir joyda</h1>
-                    <div class="one">
-                        <h2>1</h2>
-                        <p>O'zingizga bo'lgan ishonch</p>
-                    </div>
-                    <div class="two">
-                        <h2>2</h2>
-                        <p>Bizga ishoning  </p>
-                    </div>
-                </div>
-                <div class="clientImg">
-                    <img src="./images/imageHappyClients 1.png" alt="">
-                </div>
+            <div class="footTitle">
+                <a class="footerTitle" href="#">Hisobingiz bormi? Iltimos, tizimga kiring.</a>
             </div>
         </section>
 
 
-        <section class="qadam-2">
-            <div class="qadamBox2">
-                <div class="qadamBox2Title">
-                    <h2>2-QADAM</h2>
-                    <h1>SMarket oilasiga qo'shiling </h1>
-                    <p>Biz sizga har tomonlama yordam berishga tayyormiz, agar xohlasangiz yordam beramiz</p>
-                </div>
-                <div class="qadamBox2Img">
-                    <img src="./images/Hp Laptop Png Free Download - 3000x2200.png" alt="" width="400">
-                    <img src="./images/Hp Laptop Png Free Download - 3000x2200.png" alt="" width="400">
-                </div>
-                <div class="qadamBox2Btn">
-                    <a href="#">Oilamizga qo'shilish</a>
-                </div>
-            </div>
-        </section>
 
-        <section class="qadam-3">
-            <div class="qadam3Box">
-                <h2>3-QADAM</h2>
-                <h1>Bizning kompaniyamizda ishlash</h1>
-                <p>Buning uchun bizga kerakli narsalarni taqdim etishingiz kerak. Bot orqali kerakli ma'lumotlarni yuboring</p>
-            </div>
-        </section>
 
-        <section class="client2">
-            <div class="leftClient">
-                <div class="title">
-                    <h1>Agar bor bo'lsa kompaniya</h1>
-                    <div class="desc">
-                        <h2>1</h2>
-                        <p>SMarket tomonidan mahsulotlaringizning 24 soat reklamasi</p>
-                    </div>
-                    <div class="desc2">
-                        <h2>2</h2>
-                        <p>sizga biz tomondan ko'plab qulayliklar taqdim etiladi</p>
-                    </div>
-                    <div class="titleBtn">
-                        <a href="#">Aloqa</a>
-                    </div>
-                </div>
-                <div class="client2Img">
-                    <img src="./images/imageHappyClients 1.png" alt="">
-                </div>
 
-            </div>
-        </section>
+
+
+
+
+
+
+        <!-- end sections -->
+
+
+    
     </div>
 
-    <section class="tarmoqlar">
-        <div class="tarmoqBox">
-            <div class="wrapper">
-                <h1>Bizni barcha tarmoqlarda topishingiz mumkin </h1>
-            </div>
-        </div>
-    </section>
 
-    <section class="piple">
-        <div class="pipleBox">
-            <div class="wrapper">
-                <h1>Biz yangi biznes bo'lsak-da, 1000 dan ortiq obunachilarimiz bor</h1>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-        <!-- end index sections -->
-        <!-- strat hamkorlar -->
-        <div class="wrapper">
-
-            <div class="hamkorSlider">
-                <div class="slider">
-                    <img src="./images/hamkor.jpg" alt="">
-                    <img src="./images/hamkor1.jpg" alt="">
-                    <img src="./images/hamkor2.jpg" alt="">
-                    <img src="./images/hamkor3.jpg" alt="">
-                    <img src="./images/hamkor4.jpg" alt="">
-                    <img src="./images/hamkor5.jpg" alt="">
-                    <img src="./images/hamkor6.jpg" alt="">
-                </div>
-    
-            </div>
-        </div>
-        <!-- end hamkorlar -->
-        <!-- end section -->
-        <div class="wrapper">
-
-            <footer class="footer" id="footer">
-                <div class="footerBlog">
-                    <div class="footerImg">
-                        <img src="./images/logogo.png" alt="">
-                    </div>
-                    <div class="footerTitle">
-                        <h1>SMarketni Tanlang</h1>
-                        <p>Sizning yo'lingiz biz bilan</p>
-                    </div>
-                    <div class="footerBtn">
-                        <a href="#">Bizga qo'shiling</a>
-                    </div>
-                    <div class="footerDesc">
-                        <img src="./images/Dot.png" alt="">
-                        <span>1000+</span>
-                        <p>Bizda professionallar bor</p>
-                    </div>
-                </div>
-            </footer>
-        </div>
-
-
-        <!-- start footer -->
-        <!-- end footer -->
-  
-    <!-- end site -->
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-    <script>
-        VanillaTilt.init(document.querySelectorAll(".videoBox2"), {
-		    max: 25,
-		    speed: 400,
-            glare: true,
-	    });
-    </script>
-
+    <script src="./js/login.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/lang.js"></script>
 </body>

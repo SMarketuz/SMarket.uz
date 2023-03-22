@@ -32,7 +32,7 @@ kod.addEventListener('keydown',(e)=> {
 
     let all = kod.value
     if(regex.test(all)) {
-        link.setAttribute('href','./index.html')
+        link.setAttribute('href','./home.html')
     } else {
         habar.innerHTML = `
         <span class="danger" id="habar">Siznign parolingizda hatolik bo'lishi mumkun</span>
